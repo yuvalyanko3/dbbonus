@@ -1,0 +1,68 @@
+package utils;
+
+public class Consts {
+	
+	public static final String entitlementCategory = "exec CheckEntitlementCategory ?,?,?";
+	public static final String entitlementCategorySerial = "exec CheckEntitlementCategorySerial ?";
+	public static final String entitlementCategoryDesc = "exec CheckEntitlementCategoryDesc ?";
+	public static final String getAllCatagories = "exec GetAllCatagories";
+	public static final String insertEntitlementCategory = "exec InsertEntitlementCategory ?,?,?,?,?";
+	public static final String getAllParticipates = "exec GetAllParticipates";
+	public static final String getAllResidents = "exec GetAllResidents";
+	public static final String getAllCities = "exec GetAllCities";
+	public static final String getResident = "exec GetResident ?";
+	public static final String insertResident = "exec InsertResident ?,?,?,?,?,?";
+	public static final String updateResident = "exec UpdateResident ?,?,?,?,?,?";
+	public static final String getResidentEntitlementCategories = "exec GetResidentEntitlementCategories ?,?";
+	public static final String insertEntitled = "exec InsertEntitled ?,?";
+	public static final String deleteResidentEntitled = "exec DeleteResidentEntitled ?";
+	public static final String getAllRaffels = "exec GetAllRaffels";
+	public static final String getRaffelsForResident = "exec GetRaffelsForResident ?,?";
+	public static final String InsertParticipate = "exec insertParticipate ?,?,?";
+	public static final String getParticipateRaffels = "exec GetParticipateRaffels ?";
+	public static final String getParticipate = "exec GetParticipate ?";
+	public static final String deleteParticipateFromRaffle = "exec DeleteParticipateFromRaffle ?,?";
+	public static final String getParticipatesNames = "GetParticipatesNames";
+	public static final String getParticipateRaffleDetails = "exec GetParticipateRaffleDetails ?";
+	public static final String deleteResidentFromAllRaffles = "exec DeleteResidentFromAllRaffles ?";
+	public static final String uptateParticipateWinningPlace = "exec UptateParticipateWinningPlace ?,?,?";
+	public static final String deleteResidentFromApa = "exec RemoveResidentFromApa ?";
+	public static final String getResidentApa = "exec GetResidentApa ?";
+	public static final String deleteResident = "exec DeleteResident ?";
+	public static final String getParticipateRaffles = "GetParticipateRaffles ?";
+	public static final String updateResidentInApa = "exec UpdateResidentInApa ?,?,?,?";
+	public static final String getUserName = "exec GetUserName ?";
+	public static final String insertUserCredentials = "exec InsertUserCredentials ?,?,?,?";
+	public static final String getUserCredential = "exec GetUserCredentials ?,?";
+	public static final String getUserCredentialsById = "exec GetUserCredentialsById ?,?";
+	public static final String deleteUserCredentials = "exec DeleteUserCredentials ?,?";
+	public static final String updateUserCredentialsType = "exec UpdateUserCredentialsType ?,?";
+	public static final String getUserType = "exec GetUserType ?";
+	public static final String queryEight = "exec QueryEight";
+	public static final String projectsByNeighborhoods = "exec ProjectsByNeighborhoods ?";
+	public static final String freeTpaByNeighborhood = "exec FreeTpaByNeighborhood ?";
+	public static final String numberOfSameEC = "exec NumberOfSameEC ?";
+	public static final String numberOfProjectsForContractor = "exec NumberOfProjectsForContractor";
+	public static final String projectPerCity = "exec ProjectPerCity";
+	public static final String projectPerCityForContractor = "exec ProjectPerCityForContractor ?";
+	public static final String numOfApaPerCity = "exec NumOfApaPerCity";
+	public static final String participatesPerCity = "exec ParticipatesPerCity";
+	public static final String buildingsPerNeighborhood ="exec BuildingsPerNeighborhood ?";
+	public static final String rafflesPerCity = "exec RafflesPerCity";
+	public static final String numberOfParticipatesInSameRaffle = "exec NumberOfParticipatesInSameRaffle ?";
+	public static final String numberOfEC = "exec NumberOfEC";
+	public static final String apaPerRaffle = "exec ApaPerRaffle";
+	public static final String queryTwo = "exec QueryTwo";
+	public static final String queryFive = "exec QueryFive";
+	public static final String querySix = "exec QuerySix";
+	public static final String queryFour = "exec QueryFour";
+	public static final String getPastRaffles = "exec getPastRaffles ?";
+	public static final String ResidentsByCity = "exec ResidentsByCity";
+	public static final String numberOfWorkers = "exec numberOfWorkers ";
+	public static final String NumberOfAccByCategory = "exec NumberOfAccByCategory ";
+	public static final String[] raffleValues = {"Raffle number", "Raffle date", "Project number"};
+	public static final String[] categoryValues = {"SerialNO", "MinAge", "MaxAge", "MaritalStatus", "Description"};
+	public static final String[] participateValues = {"Participate ID", "First name", "Last name"};
+	public static final String[] residentValues = {"Resident ID", "First name", "Last name", "Birthday", "Current city", "Family status"};
+
+}

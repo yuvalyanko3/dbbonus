@@ -1,0 +1,31 @@
+*******************************************************************************
+
+Date: 10/10/2018 17:31:23
+Failed to add entitlement category (ROW 2). Reason(s): 
+- SerialNO is invalid.
+
+Date: 10/10/2018 17:31:23
+Failed to add entitlement category (ROW 5). Reason(s): 
+- Marital status is invalid.
+
+
+*******************************************************************************
+
+*******************************************************************************
+
+Date: 10/10/2018 17:33:40
+Failed to add entitlement category (ROW 2). Reason(s): 
+- Category with the same SerialNO already exists.
+
+
+*******************************************************************************
+
+*******************************************************************************
+
+Date: 10/10/2018 17:48:57
+Failed to add entitlement category (ROW 2). Reason(s): 
+- Minimum age is invalid.
+
+
+*******************************************************************************
+
